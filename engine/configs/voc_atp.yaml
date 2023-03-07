@@ -1,0 +1,16 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# 数据路径
+path: ""  # dataset root dir
+train:
+  - "cv/panjinquan/dataset/csdn/helmet/Helmet-Asian/trainval.txt"
+  - "cv/panjinquan/dataset/csdn/helmet/Helmet-Europe/trainval.txt"
+
+val:
+  - "cv/panjinquan/dataset/csdn/helmet/Helmet-Asian/test.txt"
+
+test:  # test images (optional)
+data_type: voc
+
+# Classes
+nc: 2  # number of classes
+names: { 'head': 0, "helmet": 1 }
