@@ -2,12 +2,12 @@
 # 数据路径
 path: "" # dataset root dir
 train:
-  - "/kaggle/input/safehat/Helmet-Asian/trainval.txt"
+  - "E:/Desktop/Helmet-Asian/trainval.txt"
 
   # "E:/Desktop/hat/yolov5/yolov5/data/Helmet-Asian/trainval.txt"
 
 val:
-  - "/kaggle/input/safehat/Helmet-Asian/test.txt"
+  - "E:/Desktop/Helmet-Asian/test.txt"
 
   # "E:/Desktop/hat/yolov5/yolov5/data/Helmet-Asian/test.txt"
 
